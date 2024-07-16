@@ -56,7 +56,7 @@ function preencherTela() {
       break;
   }
 
-  andamento.innerHTML = `${exercicioAtual+1} / ${quantidadeDoDia}`;
+  andamento.innerHTML = `${exercicioAtual + 1} / ${quantidadeDoDia}`;
 
   nomeExercicio.innerHTML = snapshot.val()[diaAtual][exercicioAtual].nome;
 }
